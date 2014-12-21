@@ -1,0 +1,31 @@
+\subsection{Breakdown by function of proteins strongly correlated with growth rate}
+\begin{table}
+\centering
+%{\hspace*{-4.5cm}
+\resizebox{\textwidth}{!}{
+\pgfplotstabletypeset[
+col sep=semicolon,
+columns/Function/.style={string type,column type=l},
+columns/totPrctP/.style={column name={$\%$ of proteome}},
+columns/corPrctP/.style={column name={Correlated $\%$ of proteome}},
+]{funcsHeinemann.csv}
+}
+\caption{Breakdown by function of the strongly correlated with growth rate proteins in the Heinemann data set.}
+\label{tab:corrbreakdownh}
+\end{table}
+
+
+\begin{table}
+\centering
+%{\hspace*{-4.5cm}
+\resizebox{\textwidth}{!}{
+\pgfplotstabletypeset[
+col sep=semicolon,
+columns/Function/.style={string type,column type=l},
+columns/totPrctP/.style={column name={$\%$ of proteome}},
+columns/corPrctP/.style={column name={Correlated $\%$ of proteome}},
+]{funcsValgepea.csv}
+}
+\caption{Breakdown by function of the strongly correlated with growth rate proteins in the Valgepea data set.}
+\label{tab:corrbreakdownv}
+\end{table}
