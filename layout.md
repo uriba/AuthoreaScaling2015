@@ -17,5 +17,5 @@ figures/HeinemannChemostatGr/HeinemannChemostatGr.png
 subsectionDiscussion.tex
 figures/RandEstimateHeinemann/RandEstimateHeinemann.png
 subsectionBreakdown_.tex
-figures/RibsVsGlob/default_figure.png
+figures/RibsVsGlob/RibsVsGlob.png
 subsectionRibosomal_.tex
