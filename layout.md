@@ -5,7 +5,7 @@ figures/GrowthRateCorrelation/GrowthRateCorrelation.png
 subsubsectionProtein.tex
 figures/AllProtsVSRibosomalNormalizedSlopes/AllProtsVSRibosomalNormalizedSlopes.png
 Furthermore_we_exami.tex
-figures/GlobalClusterGRFit/default_figure.png
+figures/GlobalClusterGRFit/GlobalClusterGRFit.png
 To_conclude_we_obser.tex
 figures/Figures7-trieste/default_figure.png
 subsubsectionThe_con.tex
