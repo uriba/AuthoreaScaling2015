@@ -13,7 +13,7 @@ sectionDiscussion_We.tex
 sectionMaterials_and.tex
 figures/ExpVar3/ExpVar3.png
 The_data_we_use.tex
-figures/HeinemannChemostatGr/default_figure.png
+figures/HeinemannChemostatGr/HeinemannChemostatGr.png
 subsectionDiscussion.tex
 figures/RandEstimateHeinemann/default_figure.png
 subsectionBreakdown_.tex
