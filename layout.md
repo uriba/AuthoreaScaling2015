@@ -11,7 +11,7 @@ figures/Figures7-trieste/Figures7-trieste.png
 subsubsectionThe_con.tex
 sectionDiscussion_We.tex
 sectionMaterials_and.tex
-figures/ExpVar3/default_figure.png
+figures/ExpVar3/ExpVar3.png
 The_data_we_use.tex
 figures/HeinemannChemostatGr/default_figure.png
 subsectionDiscussion.tex
