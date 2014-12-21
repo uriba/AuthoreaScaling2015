@@ -15,7 +15,7 @@ figures/ExpVar3/ExpVar3.png
 The_data_we_use.tex
 figures/HeinemannChemostatGr/HeinemannChemostatGr.png
 subsectionDiscussion.tex
-figures/RandEstimateHeinemann/default_figure.png
+figures/RandEstimateHeinemann/RandEstimateHeinemann.png
 subsectionBreakdown_.tex
 figures/RibsVsGlob/default_figure.png
 subsectionRibosomal_.tex
