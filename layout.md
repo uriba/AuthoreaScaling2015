@@ -1,7 +1,7 @@
 abstract.tex
 sectionIntroduction_.tex
 sectionResults_subse.tex
-figures/GrowthRateCorrelation/default_figure.png
+figures/GrowthRateCorrelation/GrowthRateCorrelation.png
 subsubsectionProtein.tex
 figures/AllProtsVSRibosomalNormalizedSlopes/default_figure.png
 Furthermore_we_exami.tex
