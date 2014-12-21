@@ -7,7 +7,7 @@ figures/AllProtsVSRibosomalNormalizedSlopes/AllProtsVSRibosomalNormalizedSlopes.
 Furthermore_we_exami.tex
 figures/GlobalClusterGRFit/GlobalClusterGRFit.png
 To_conclude_we_obser.tex
-figures/Figures7-trieste/default_figure.png
+figures/Figures7-trieste/Figures7-trieste.png
 subsubsectionThe_con.tex
 sectionDiscussion_We.tex
 sectionMaterials_and.tex
