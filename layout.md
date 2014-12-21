@@ -3,7 +3,7 @@ sectionIntroduction_.tex
 sectionResults_subse.tex
 figures/GrowthRateCorrelation/GrowthRateCorrelation.png
 subsubsectionProtein.tex
-figures/AllProtsVSRibosomalNormalizedSlopes/default_figure.png
+figures/AllProtsVSRibosomalNormalizedSlopes/AllProtsVSRibosomalNormalizedSlopes.png
 Furthermore_we_exami.tex
 figures/GlobalClusterGRFit/default_figure.png
 To_conclude_we_obser.tex
