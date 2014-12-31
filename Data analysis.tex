@@ -1,0 +1,35 @@
+\subsection{Analysis of proteomic data sets}
+To examine the interdependence of protein concentration and growth rate across expressed genes we analyzed two published proteomics data sets of \emph{E.coli}, \cite{Valgepea2013} and [ref Heinemann].
+These data sets use mass spectrometry to evaluate the proteomic composition of \emph{E.coli} under $5$ different growth rates using a chemostat, in \cite{Valgepea2013}, and $19$ different growth conditions, spanning both different carbon sources and chemostat-controlled growth rates, in [ref Heinemann].
+The [ref Heinemann] data set contains more conditions than those analyzed below, see section \ref{heinemanncond} for further details.
+
+\subsubsection{A large fraction of the proteome is positively correlated with growth rate}
+For each data set, we calculated the Pearson correlation of every protein with the growth rate.
+A histogram of the distribution of the correlations is shown in Figure \ref{fig:growthcorr}.
+We find that $\approx 1/3$ of the proteins ($881$ out of $1654$ measured in the data set from [ref Heinemann], hereafter referred to as H, and $296$ out of $919$ in the data set from \cite{Valgepea2013}, hereafter referred to as V) are strongly positively correlated with the growth rate.
+A strong correlation with growth rate was defined as a correlation of $R\geq 0.8$ for the V data set, and $R\geq 0.25$ for the H data set.
+The thresholds for defining strong correlation with growth rate were chosen to be the values maximizing the explained variability by a simple linear regression for these proteins, out of the total variability of the proteome (See \ref{corrthreshold} for exact definition and calculation used).
+For further comparison and analysis of the causes underlying the differences between the two data sets as reflected in Figure \ref{fig:growthcorr} see section \ref{heinemannchemo}.
+Notably, in both data sets, the proteins that have a high correlation with the growth rate are involved in different cellular functions and span different functional groups (See tables \ref{tab:corrbreakdownh} and \ref{tab:corrbreakdownv}).
+Previous studies already found that ribosomal proteins are strongly positively correlated with growth rate (refs).
+However, we find that the strongly positively correlated with growth rate group of proteins includes more proteins than the 56 ribosomal proteins, the vast majority of which we also find to be strongly correlated with the growth rate.
+Specifically, the proteins that we find to be strongly positively correlated with growth rate are not generally expected to be co-regulated.
+
+\subsubsection{Proteins positively correlated with growth rate share a similar response}
+\label{propchange} 
+
+Following the identification of the group of strongly positively correlated with growth rate proteins, we examined how similar is the behavior with growth rate for these different proteins.
+We note that similar correlation with growth rate for different proteins does not imply that such proteins share the same scaling with growth rate, that is,  they may have very different slopes or fold changes with an increasing growth rate.
+
+
+In order to compare the responses of different proteins across conditions, we therefore, for every protein, \todo{Alternatively, only write here that we've normalized the responses with reference to further explanation in the methods/SI} divided its concentration under every condition by its average concentration across all of the conditions (see \ref{concacrossconds} for further details).
+This normalized concentration across conditions represents a specific protein, concentration independent, response to the different conditions under which the protein was measured.
+We note that, under this metric, sharing similar responses among a group of proteins implies that proteins in that group maintain their relative ratios, ratios that are determined by the average concentration of each of these proteins across the different environmental conditions.
+We refer to proteins that share a similar normalized response across different conditions as being \emph{coordinated} or \emph{coordinately regulated}.
+
+To assess the coordination between the proteins that were found to be strongly positively correlated with growth rate we therefore calculated the slope of a linear regression line for the normalized concentration vs. the growth rate for every one of these proteins.
+The results are presented in Figure \ref{fig:globalfit}, alongside the expected distribution, based on the experimental noise in measurements (Further details on the calculation are in section \ref{concacrossconds}).
+Further more, we calculated the $95\%$ confidence interval for every slope obtained for any protein.
+While the expected distribution of slopes, given the experimental noise, deviates from the observed one, the calculation of confidence intervals reveals that the observed distribution can result from a single response (See SI for further discussion).
+These results extend the scope of similar results obtained for \emph{S.cerevisiae} in \cite{Keren2013a} and for expression levels in \emph{E.coli} under stress conditions in \cite{Kaneko2014}.
+This analysis thus reveals that, not only is a significant fraction of the proteome strongly positively correlated with the growth rate, but that, as is shown in Figure \ref{fig:globalfit}, this response is coordinated.
