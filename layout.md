@@ -1,6 +1,6 @@
 abstract.tex
 sectionIntroduction_.tex
-sectionResults_subse.tex
+Results.tex
 figures/GrowthRateCorrelation/GrowthRateCorrelation.png
 Data analysis.tex
 figures/AllProtsVSRibosomalNormalizedSlopes/AllProtsVSRibosomalNormalizedSlopes.png
