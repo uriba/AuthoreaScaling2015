@@ -3,8 +3,8 @@ sectionIntroduction_.tex
 Results.tex
 Theoretical model.tex
 figures/Figures7-trieste/Figures7-trieste.png
-figures/GrowthRateCorrelation/GrowthRateCorrelation.png
 Data analysis.tex
+figures/GrowthRateCorrelation/GrowthRateCorrelation.png
 figures/AllProtsVSRibosomalNormalizedSlopes/AllProtsVSRibosomalNormalizedSlopes.png
 Furthermore_we_exami.tex
 figures/GlobalClusterGRFit/GlobalClusterGRFit.png
