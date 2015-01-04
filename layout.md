@@ -22,7 +22,7 @@ Acknowledgements.tex
 Supplementary information.tex
 Threshold selection.tex
 figures/ExpVar3/ExpVar3.png
-The_data_we_use.tex
+Data sets differences.tex
 figures/HeinemannChemostatGr/HeinemannChemostatGr.png
 subsectionDiscussion.tex
 figures/RandEstimateHeinemann/RandEstimateHeinemann.png
