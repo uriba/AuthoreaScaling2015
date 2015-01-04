@@ -20,6 +20,7 @@ Discussion.tex
 sectionMaterials_and.tex
 Acknowledgements.tex
 Supplementary information.tex
+Threshold selection.tex
 figures/ExpVar3/ExpVar3.png
 The_data_we_use.tex
 figures/HeinemannChemostatGr/HeinemannChemostatGr.png
