@@ -9,6 +9,7 @@ Theoretical model subsection 3.tex
 Theoretical model subsection 4.tex
 Theoretical model subsection 5.tex
 Theoretical model subsection 6.tex
+Proteomic data sets analysis.tex
 Data analysis.tex
 figures/GrowthRateCorrelation/GrowthRateCorrelation.png
 figures/AllProtsVSRibosomalNormalizedSlopes/AllProtsVSRibosomalNormalizedSlopes.png
