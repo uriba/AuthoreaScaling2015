@@ -16,7 +16,6 @@ Global cluster dominates changes in proteome composition.tex
 figures/GrowthRateCorrelation/GrowthRateCorrelation.png
 figures/AllProtsVSRibosomalNormalizedSlopes/AllProtsVSRibosomalNormalizedSlopes.png
 figures/GlobalClusterGRFit/GlobalClusterGRFit.png
-To_conclude_we_obser.tex
 Discussion.tex
 sectionMaterials_and.tex
 figures/ExpVar3/ExpVar3.png
