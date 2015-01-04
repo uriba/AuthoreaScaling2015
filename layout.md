@@ -11,9 +11,9 @@ Theoretical model subsection 5.tex
 Theoretical model subsection 6.tex
 Proteomic data sets analysis.tex
 Many proteins are correlated with growth rate.tex
+figures/GrowthRateCorrelation/GrowthRateCorrelation.png
 Proteins correlated with GR are coordinated.tex
 Global cluster dominates changes in proteome composition.tex
-figures/GrowthRateCorrelation/GrowthRateCorrelation.png
 figures/AllProtsVSRibosomalNormalizedSlopes/AllProtsVSRibosomalNormalizedSlopes.png
 figures/GlobalClusterGRFit/GlobalClusterGRFit.png
 Discussion.tex
