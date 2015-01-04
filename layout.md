@@ -15,7 +15,6 @@ Proteins correlated with GR are coordinated.tex
 Global cluster dominates changes in proteome composition.tex
 figures/GrowthRateCorrelation/GrowthRateCorrelation.png
 figures/AllProtsVSRibosomalNormalizedSlopes/AllProtsVSRibosomalNormalizedSlopes.png
-Furthermore_we_exami.tex
 figures/GlobalClusterGRFit/GlobalClusterGRFit.png
 To_conclude_we_obser.tex
 Discussion.tex
