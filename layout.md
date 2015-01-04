@@ -11,6 +11,7 @@ Theoretical model subsection 5.tex
 Theoretical model subsection 6.tex
 Proteomic data sets analysis.tex
 Many proteins are correlated with growth rate.tex
+Proteins correlated with GR are coordinated.tex
 Data analysis.tex
 figures/GrowthRateCorrelation/GrowthRateCorrelation.png
 figures/AllProtsVSRibosomalNormalizedSlopes/AllProtsVSRibosomalNormalizedSlopes.png
