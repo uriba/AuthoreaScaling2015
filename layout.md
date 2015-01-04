@@ -2,6 +2,7 @@ abstract.tex
 sectionIntroduction_.tex
 Results.tex
 Theoretical model1.tex
+Theoretical model subsection 1.tex
 Theoretical model.tex
 figures/Figures7-trieste/Figures7-trieste.png
 Data analysis.tex
