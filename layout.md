@@ -25,6 +25,7 @@ figures/ExpVar3/ExpVar3.png
 Data sets differences.tex
 figures/HeinemannChemostatGr/HeinemannChemostatGr.png
 subsectionDiscussion.tex
+Predictive example.tex
 figures/RandEstimateHeinemann/RandEstimateHeinemann.png
 subsectionBreakdown_.tex
 subsectionRibosomal_.tex
