@@ -1,0 +1,34 @@
+\subsubsection{The observed growth rate is an outcome of proteome composition and environmental conditions}
+While it is sometimes implied that different cellular components are regulated by the growth rate, here we consider the growth rate as an outcome of the environmental conditions that affect the proteome composition.
+Specifically, we arrive at the doubling time as the result of dividing the total amount of proteins per cell by the amount of bio-synthesis machinery in that cell.
+The larger the ratio of total proteins to bio-synthesis proteins is, the longer these bio-synthesis proteins will have to operate in order to duplicate the proteome, and thus the longer the doubling time of the cell will be.
+
+
+To illustrate this assumption concretely, one could think about the total amount of proteins per cell (measured in amino-acids count) divided by the number of ribosomes in the cell.
+Assuming each ribosome translates at an approximately condition-independent rate of about 20 amino-acids per second, and as the amount of actively translating ribosomes is also relatively condition-independent \cite{Philips2009} (\emph{ToDo:and its refs}), it follows that the doubling time is linearly dependent on the ratio of proteins to ribosomes in the biomass as illustrated in Figure \ref{fig:model}B.
+
+
+Theoretically, the fastest doubling time a cell may have is the doubling time achieved when all of the proteome of the cell is the bio-synthetic machinery.
+We denote this minimal doubling time by $T_B$.
+If the bio-synthetic machinery is only half of the proteome, the doubling time will be $2T_B$ etc.
+
+
+To integrate the notion of total protein to bio-synthetic protein ratio into our model, we make the following simplifying assumption:
+There is a group of bio-synthetic genes (e.g. genes of the transcriptional and translational machineries) the affinities of which remain constant across different growth conditions, a.k.a. these genes are not actively differentially regulated across different conditions.
+Furthermore, we assume that the machineries these genes are involved at operate at relatively constant rates and active to non-active ratios across conditions.
+Under these assumptions we can define this group of bio-synthesis genes, $G_B$, such that, for every gene that belongs to this group, $k \in G_B$, its affinity, $w_k(c)$ is constant regardless of the condition, $c$.
+\begin{equation}
+  \label{eq:biosynth-def}
+  w_k(c)=w_k
+\end{equation}
+
+
+To keep our notations short, we will define the (condition independent) sum over all of these bio-synthesis genes as the constant: $W_B = \sum_{k\in G_B}w_k$.
+
+
+As these genes form the bio-synthesis machinery, and according to the assumptions presented above, it follows that the doubling time under a given condition, $\tau(c)$ will be proportional to the ratio of total protein to bio-synthesis protein under that condition, with the proportionality constant being $T_B$:
+\begin{equation}
+  \label{eq:gr-ratio}
+  \tau(c) = T_B\frac{P(c)}{\sum_{k\in G_B}P_k(c)}=T_B\frac{\sum_jw_j(c)}{W_B}
+\end{equation}
+Therefore, the model implies that for conditions that require the expression of larger amounts of non-bio-synthetic genes (i.e. higher values in the sum over $w_j$ that are not in $W_B$), the resulting doubling time will be longer, i.e., the growth rate will be lower.
