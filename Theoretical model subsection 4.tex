@@ -1,0 +1,23 @@
+\subsubsection{The concentration of a non-differentially regulated protein is expected to increase with the growth rate} 
+Recalling that the connection between the growth rate and the doubling time is: $g(c)=\frac{\ln(2)}{\tau(c)}$, we now combine Equation \ref{eq:concentration-ratio} with Equation \ref{eq:gr-ratio} to get that:
+\begin{equation}
+  \label{eq:default-response}
+  p_i(c)=\frac{w_i(c)}{\sum_jw_j(c)}=\frac{w_i(c)}{W_B}\frac{W_B}{\sum_jw_j(c)}=\frac{w_i(c)}{W_B}\frac{T_B}{\ln(2)}g(c)
+\end{equation}
+
+
+Incorporating all the condition-independent constants ($W_B$, $T_B$, $\ln(2)$) into one term, $C$, we get that the predicted fraction of protein $i$ out of the proteome under condition $c$ is:
+\begin{equation}
+  \label{eq:final-conc}
+  p_i(c)=Cw_i(c)g(c)
+\end{equation}
+which implies that, for every two conditions between which gene $i$ maintains its affinity, ($w_i(c_1)=w_i(c_2)$), the fraction protein $i$ occupies out of the proteome scales like the growth rate change between these two conditions.
+
+
+To summarize, the simplistic model we have constructed predicts that, under no specific regulation, the fraction a protein occupies out of the proteome should scale with the growth rate.
+A group of such proteins should therefore maintain their relative concentrations across conditions.
+Finally, when the growth rate approaches zero, the fractions of such proteins, and thus their concentrations, should also approach zero.
+
+
+However, as the analysis of experimental data in Figure \ref{fig:globalgrcorr} shows, while the concentration of many proteins does indeed scale linearly with growth rate, this scaling does not imply a drop to zero concentration at zero growth.
+There are at least two factors that have been neglected in the model, but that can account for this result, and the analysis of their expected effects follows.
