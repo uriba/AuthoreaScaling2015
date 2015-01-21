@@ -2,7 +2,7 @@
 The model can be expanded to include the expected effects of proteome degradation.
 Accounting for protein degradation affects the predicted concentration of non-differentially regulated proteins at zero growth rate.
 
-Assuming that protein degradation acts on all proteins in the same way, and that it is invariant in the growth condition, the effect of protein degradation can be understood as follows: at any time, some fraction of the entire proteome is degraded.
+Simplifying the analysis by assuming that protein degradation acts on all proteins in the same way, and that it is not dependent on the growth condition, the effect of protein degradation can be understood as follows: at any time, some fraction of the entire proteome is degraded.
 Therefore, the \emph{observed} growth rate, $g$, is, in fact, the amount of proteins produced \emph{minus} the amount of proteins degraded.
 To illustrate, if a cell does not grow, the implication is not that no proteins are produced, but rather that proteins are produced at exactly the same rate as they are degraded.
 
@@ -12,5 +12,5 @@ Therefore, if we denote by $\alpha$ the degradation rate (assuming for now equal
   \label{eq:final-conc-deg}
   p_i(c)=Aw_i(c)(g(c)+\alpha)
 \end{equation}
-This equation predicts linear dependence of the concentration of unregulated proteins with the growth rate, with an intercept with the horizontal axis occuring at minus the degradation rate.
+This equation predicts linear dependence of the concentration of unregulated proteins on the growth rate, with an intercept with the horizontal axis occuring at minus the degradation rate.
 Degradation can thus explain why concentrations of non-differentially regulated proteins do not drop to zero when the growth rate is zero.
