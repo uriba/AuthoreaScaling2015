@@ -3,6 +3,7 @@ sectionIntroduction_.tex
 Introduction-history.tex
 Introduction-recent-history.tex
 Introduction-remaining-challenges.tex
+Introduction-work-summary.tex
 Results.tex
 Theoretical model1.tex
 figures/Figures7-trieste/Figures7-trieste.png
