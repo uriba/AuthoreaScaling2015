@@ -25,6 +25,7 @@ Discussion-theoretic-summary.tex
 Discussion-model-summary.tex
 Discussion-relation-to-ribosomes.tex
 Discussion-relation-to-other-studies.tex
+Discussion-relation-to-other-studies-hwa.tex
 sectionMaterials_and.tex
 Acknowledgements.tex
 Supplementary information.tex
