@@ -1,0 +1,12 @@
+\subsubsection{Normalizing protein concentration across conditions}
+\label{concacrossconds} 
+
+When comparing the response of different proteins to the growth rate, a normalization is required to compensate for differences in their mean concentrations.
+For example, consider two proteins, $A$ and $B$ measured under two conditions, $C_1$ and $C_2$.
+Assume that the measured fractions out of the proteome of these two proteins under the two conditions were $0.001$ and $0.002$ for $A$ under $C_1$ and $C_2$ respectively, and $0.01$ and $0.02$ for $B$ under $C_1$ and $C_2$ respectively.
+These two proteins therefore respond in the same way across the two conditions, namely, they double their fraction in the proteome in $C_2$ compared with $C_1$.
+The normalization procedure scales the data so as to reveal this identity in response.
+Dividing the fraction of each protein out of the proteome by the average fraction of that protein across conditions, we get normalized fractions that are $\frac{2}{3}$ for both $A$ and $B$ at $C_1$ and $\frac{4}{3}$ for both $A$ and $B$ at $C_2$ showing their identical response.
+
+This normalization procedure has been used prior to calculating the slopes of the regression lines best describing the change in fraction out of the proteome of every protein as a function of the growth rate.
+Furthermore, when analyzing the variability explained by linear regression on the sum of concentrations of all proteins presenting a high correlation with the growth rate, the same normalization procedure was made in order to avoid biases resulting from the high abundance of a few proteins in that group.
