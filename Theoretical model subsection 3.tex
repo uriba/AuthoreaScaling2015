@@ -3,10 +3,10 @@ While it is sometimes implied that different cellular components are regulated b
 Specifically, the doubling time is proportional to the ratio of the total amount of proteins per cell and the amount of bio-synthesis machinery in that cell.
 The larger the ratio of total proteins to bio-synthesis proteins is, the longer these bio-synthesis proteins will have to operate in order to duplicate the proteome, and thus the longer the doubling time of the cell will be.
 
-To illustrate this assumption concretely, one could think about the total amount of proteins per cell (measured in amino-acids count) divided by the number of ribosomes in the cell.
-Assuming each ribosome translates at an approximately condition-independent rate of about 20 amino-acids per second, and as the fraction of actively translating ribosomes out of the total ribosome pool is also relatively condition-independent \cite{Bremer1987}, it follows that the doubling time is linearly dependent on the ratio of proteins to ribosomes in the biomass, as illustrated in Figure \ref{fig:model}B.
+To illustrate this assumption concretely, one could think about the total amount of proteins per cell (measured in amino-acids count), $P$, divided by the number of ribosomes in the cell $R$.
+Assuming each ribosome translates at an approximately condition-independent rate of $\eta \approx 20$ amino-acids per second, and as the fraction of actively translating ribosomes out of the total ribosome pool is also relatively condition-independent \cite{Bremer1987}, it follows that the doubling time is linearly dependent on the ratio of proteins to ribosomes in the biomass, as illustrated in Figure \ref{fig:model}B.
 
-Mathematically, the doubling time, $\tau$ is equal to the total amount of proteins, measured in amino acids, $P$, divided by the number of amino acids each ribosome polymerizes per second $\eta$, times the number of actively translating ribosomes, $R$ such that $\tau \approx \frac{P}{\eta R}$ (up to a constant factor of $\ln(2)$, reflecting the fact that the number of ribosomes also increases during the synthesis process).
+Mathematically, the doubling time $\tau$ is equal to $P$, divided by the number of amino acids the cell polymerizes every second $\eta R$ (up to a constant factor of $\ln(2)$, reflecting the fact that the number of ribosomes also increases during the synthesis process).
 
 Theoretically, the fastest doubling time a cell may have is the doubling time achieved when all of the proteome of the cell is the bio-synthetic machinery.
 We denote this minimal doubling time by $T_B$.
