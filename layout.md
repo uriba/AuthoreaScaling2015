@@ -29,6 +29,7 @@ Discussion-relation-to-other-studies-hwa.tex
 Discussion-relation-to-other-studies-ribosomes.tex
 Discussion-future-outlook.tex
 sectionMaterials_and.tex
+materials-and-methods-concentration-normalization.tex
 Acknowledgements.tex
 Supplementary information.tex
 Threshold selection.tex
