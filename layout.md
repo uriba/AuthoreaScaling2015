@@ -27,6 +27,7 @@ Discussion-relation-to-ribosomes.tex
 Discussion-relation-to-other-studies.tex
 Discussion-relation-to-other-studies-hwa.tex
 Discussion-relation-to-other-studies-ribosomes.tex
+Discussion-future-outlook.tex
 sectionMaterials_and.tex
 Acknowledgements.tex
 Supplementary information.tex
