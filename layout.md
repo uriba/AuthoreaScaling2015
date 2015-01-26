@@ -30,6 +30,7 @@ Discussion-relation-to-other-studies-ribosomes.tex
 Discussion-future-outlook.tex
 sectionMaterials_and.tex
 materials-and-methods-concentration-normalization.tex
+materials-and-methods-condition-selection.tex
 Acknowledgements.tex
 Supplementary information.tex
 Threshold selection.tex
