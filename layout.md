@@ -13,6 +13,7 @@ Theoretical model generic calculation of expression.tex
 Theoretical model subsection 2.tex
 Theoretical model subsection 3.tex
 Theoretical model - growth rate integration - Ribosomes example.tex
+Theoretical model - growth rate inegration -  generalization from ribosomes to biosynthesis.tex
 Theoretical model subsection 4.tex
 Theoretical model subsection 5.tex
 Theoretical model subsection 6.tex
