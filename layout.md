@@ -22,6 +22,7 @@ Proteomic data sets analysis.tex
 Many proteins are correlated with growth rate.tex
 figures/GrowthRateCorrelation/GrowthRateCorrelation.png
 Proteins correlated with GR are coordinated.tex
+Proteins correlated with GR are coordinated - normalization description.tex
 figures/AllProtsVSRibosomalNormalizedSlopes/AllProtsVSRibosomalNormalizedSlopes.png
 Global cluster dominates changes in proteome composition.tex
 figures/GlobalClusterGRFit/GlobalClusterGRFit.png
