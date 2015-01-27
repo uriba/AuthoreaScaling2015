@@ -4,19 +4,27 @@
 Following the identification of the group of proteins strongly positively correlated with growth rate, we examined how similar is the behavior with growth rate for these different proteins.
 We note that similar correlation with growth rate for different proteins does not imply that such proteins share the same scaling with growth rate, that is,  they may have very different slopes or fold changes with an increasing growth rate.
 
-
-In order to compare the responses of different proteins across conditions, we therefore, for every protein, \todo{Alternatively, only write here that we've normalized the responses with reference to further explanation in the methods/SI} divided its concentration under every condition by its average concentration across all of the conditions (see \ref{concacrossconds} for further details).
+In order to compare the responses of different proteins across conditions, we therefore, for every protein, divided its concentration under every condition by its average concentration across all of the conditions (see \ref{concacrossconds} for further details).
 This normalized concentration across conditions represents the concentration of the specific protein under every condition, relative to its mean concentration across all conditions.
 We note that, under this metric, sharing similar responses among a group of proteins implies that proteins in that group maintain their relative ratios, ratios that are determined by the average concentration of each of these proteins across the different environmental conditions.
 We refer to proteins that share a similar normalized response across different conditions as being \emph{coordinated} or \emph{coordinately regulated}.
+Note that our model suggests a mechanism for this coordinated expression changes that is not based on shared transcription factors but rather is a result of passive redistribution of resources.
 
-To assess the coordination between the proteins that were found to be strongly positively correlated with growth rate we therefore calculated the slope of a linear regression line for the normalized concentration vs. the growth rate for every one of these proteins.
-The results are presented in Figure \ref{fig:globalfit}, alongside the expected distribution, based on the deviation from linear regression of the measurements of each protein individually (Further details on the calculation are in section \ref{concacrossconds}).
-The deviation of the expected distribution of slopes from the observed one is caused by a bias in the selection of proteins due to the strict threshold chosen for inclusion in the group of proteins strongly positively correlated with growth rate (See SI for further discussion).
-These results extend the scope of similar results obtained for \emph{S.cerevisiae} in \cite{Keren2013a} and for expression levels in \emph{E.coli} under stress conditions in \cite{Kaneko2014}.
-This analysis thus reveals that, not only is a significant fraction of the proteome strongly positively correlated with the growth rate, but that, as is shown in Figure \ref{fig:globalfit}, this response is coordinated.
+To assess the coordination between the proteins that were found to be strongly positively correlated with growth rate we therefore calculated the slope of a linear regression line for the normalized concentration vs. the growth rate for every one of these proteins and plotted the result in Figure \ref{fig:globalfit}.
+The resulting distribution reveals that, not only is a significant fraction of the proteome strongly positively correlated with the growth rate, but that this response is also coordinated between the different proteins.
 
-Furthermore, we examined how the response of the strongly correlated proteins relates to the well-studied response of ribosomes concentration.
+Quantitatively, a protein with a normalized slope of $0.5$ will change in concentration from $\frac{7}{8}$ of its mean concentration at the slowest growth rate measured ($\mu \approx 0.1$), to $\frac{9}{8}$ of its mean concentration at the fastest growth rate ($\mu \approx 0.6$), whereas a protein with a normalized slope of $2$ will have concentrations in the range $\frac{1}{2}$ to $\frac{3}{2}$ of its mean concentration across the same range of growth rates (we note that such changes are relatively small compared with the known levels of noise in MS whole proteome measurements).
+Therefore, the ratio between proteins with such slopes of $0.5$ and $2$ lies in the relatively narrow range of $\frac{3}{4}$ to $\frac{7}{4}$ of the ratio between their mean concentrations, implying their relative amounts will change by at most just over 2-fold over the range of growth rates measured.
+
+To investigate the effect of noise in determining the range of slopes observed, we calculated, for every protein, the standard error with respect to the regression line that best fits its concentrations.
+Given these standard errors we generated the expected distribution of slopes that would result by conducting our analysis on proteins that share a single, identical slope, but with the calculated noise in measurement.
+The expected distribution is shown in dashed grey line in Figure \ref{fig:globalfit} (Further details on the calculation as well as the deviation in maxima between the expected and observed distributions are in section \ref{slopesnoiseanalysis}).
+
+The deviation of the expected distribution of slopes from the observed one is caused by a bias in the selection of proteins due to the strict threshold chosen for inclusion in the group of proteins strongly positively correlated with growth rate.
+
+Our results, showing that a large number of proteins maintain their relative concentrations across different growth conditions thus extend the scope of similar results obtained for \emph{S.cerevisiae} in \cite{Keren2013a} and for expression levels in \emph{E.coli} under stress conditions in \cite{Kaneko2014}.
+
+Next we examined how the response of the strongly correlated proteins relates to the well-studied response of ribosomes concentration.
 To that end, we performed the same analysis of slopes, restricting it to ribosomal proteins alone, as is shown by the stacked green bars in Figure \ref{fig:globalfit}.
 We find that, on average, strongly correlated proteins scale in the same way as ribosomal proteins do (see also Figure \ref{fig:ribsnonribs})\todo{consider adding a statistical measure for the similarity}, implying that the observed response of ribosomal proteins to growth rate is not unique and is coordinated with a much larger fraction of the proteome, thus encompassing many more cellular components.
 \begin{comment}
