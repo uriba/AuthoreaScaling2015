@@ -16,21 +16,3 @@ We denote the affinity of gene $i$ under growth condition $c$ by $w_i(c)$ (the n
 Our model assumes that the bio-synthetic resources of the cell (Ribosomes, RNA polymerases, etc.) are distributed among the genes according to their affinities under the condition at hand.
 The notion of affinities can thus reduce the number of parameters needed to predict expression levels
 markedly.
-
-For example, given that an organism expresses 1000 genes across 10 different growth conditions, one could imagine that characterizing the expression pattern of all genes across all conditions will require 10000 parameters, (the expression level of every gene under every condition), each of which can potentially vary continuously across some predefined range.
-According to our model, each gene has only a finite set of affinities, possibly only one or two, and thus the expression pattern under every condition can be characterized by only specifying which, out of the total gene-specific small set of possible affinities, each gene acquires under every condition.
-Moreover, given that the selection of expression level for a given gene is driven by some specific environmental cues, one needs only to know what cues are present at each condition in order to fully specify the affinites all genes acquire under that condition, and thus predict the resulting proteome composition.
-Figure \ref{fig:randpred} shows the prediction versus the actual concentration values of 9 random proteins in the data set from \cite{Heinemann2015}.\todo{Does our current data make this figure convincing?}
-
-The model calculates the resulting protein fraction of a gene, under a specific condition, as the specific affinity of that gene under the condition, divided by the sum of all the affinities of all of the genes under that same condition.
-Thus, if two genes have the same affinity under some condition, they will occupy identical fractions out of the proteome under that condition.
-If gene $A$ has twice the affinity of gene $B$ under a given condition, then the fraction protein  $A$ occupies will be twice as large as the fraction occupied by protein $B$ under that condition, etc.
-
-This relationship can be simply formulated as follows:
-\begin{equation}
-  \label{eq:concentration-ratio}
-  p_i(c)=\frac{P_i(c)}{P(c)}=\frac{w_i(c)}{\sum_jw_j(c)}
-\end{equation}
-where $p_i(c)$ denotes the fraction of protein $i$ under condition $c$ out of the proteome, $P_i(c)$ denotes the mass of protein $i$ under condition $c$ per cell, $P(c)$ denotes the total mass of proteins per cell under condition $c$, and the sum, $\sum_jw_j(c)$, is taken over all the genes the cell has.
-
-This equation implies that the observed fraction of a protein is determined by two factors, already, obviously, its own specific affinity that is present in the nominator, but second, and less intuitive and commonly thought of, the affinity of all of the other genes under the growth condition, as reflected by the denominator.
