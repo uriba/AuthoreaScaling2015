@@ -1,0 +1,17 @@
+Under these assumptions we can define this group of bio-synthesis genes, $G_B$, such that, for every gene that belongs to this group, $k \in G_B$, its affinity, $w_k(c)$ is constant regardless of the condition, $c$.
+\begin{equation}
+  \label{eq:biosynth-def}
+  w_k(c)=w_k
+\end{equation}
+
+To keep our notations short, we will define the (condition independent) sum over all of these bio-synthesis genes as the constant:
+\[
+W_B = \sum_{k\in G_B}w_k
+\]
+
+As these genes form the bio-synthesis machinery, and according to the assumptions presented above, it follows that the doubling time under a given condition, $\tau(c)$ will be proportional to the ratio of total protein to bio-synthesis protein under that condition, with the proportionality constant being $T_B$:
+\begin{equation}
+  \label{eq:gr-ratio}
+  \tau(c) = T_B\frac{P(c)}{\sum_{k\in G_B}P_k(c)}=T_B\frac{\sum_jw_j(c)}{W_B}
+\end{equation}
+Therefore, the model implies that for conditions that require the expression of larger amounts of non-bio-synthetic genes (i.e. higher values in the sum over $w_j$ that are not in $W_B$), the resulting doubling time will be longer, i.e., the growth rate will be lower.
