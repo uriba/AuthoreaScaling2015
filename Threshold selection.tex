@@ -1,11 +1,17 @@
 \subsection{Threshold selection for defining strong correlation with growth rate}
 \label{corrthreshold} 
 The data we use includes the concentrations of proteins under different growth conditions, and the growth rate for every condition.
+The choice of threshold for defining strong correlation with growth rate is such that it maximizes the explained variability by a common simple linear regression line for these proteins, out of the total variability of the proteome.
+
 Given a threshold on the Pearson correlation with growth rate, one can focus on the group of proteins with a correlation with growth rate that is higher than the threshold.
 For this group of proteins, a linear regression response can be calculated.
 We define the explained variability by the growth rate, given a threshold, as the difference between the total variability of the group of proteins with a correlation higher than the threshold, and the variability remaining, when assuming these proteins scale with the growth rate according to the calculated linear response.
-Dividing the explained variability by the total variability of the entire data set quantifies what fraction of the total variability in the data set is explained by considering linear scaling with growth rate for all the proteins with a correlation with growth rate higher than the threshold.
+
+Dividing the explained variability by the total variability of the entire data set quantifies what fraction of the total variability in the data set is explained by considering a coordinated linear scaling with growth rate for all the proteins with a correlation with growth rate higher than the threshold.
 The optimal threshold is then defined as the threshold maximizing this fraction.
 As different proteins have very different average concentrations, the aforementioned calculation may be biased towards proteins with higher average concentrations.
 To avoid this effect, the analysis was performed on the normalized concentrations as defined in \ref{concacrossconds}.
 Figure \ref{fig:threshold} shows the fraction of the variability explained as a function of the threshold used, as well as the fraction of the variability of the proteins included in the group for which the regression was calculated explained by the same regression line.
+
+The optimal threshold values are $0.25$ for the data set from \cite{Heinemann2015} and $0.8$ for the data set from \cite{Valgepea2013}.
+As Figure \ref{fig:threshold} illustrates, choosing the non-optimal threshold of $0.5$ for both data sets, as was done in our analysis, does not affect the results significantly.
