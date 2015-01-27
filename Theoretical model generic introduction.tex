@@ -1,0 +1,18 @@
+\subsubsection{The concentration of a protein is determined by both gene specific control, and global
+expression machinery availability}
+For every protein, the model separately considers the resulting concentration as the product of two control mechanisms:
+\begin{enumerate}
+\item Protein/gene specific controls such as the gene associated promoter sequence, 5'-UTRs, ribosomal binding site sequence, and factors affecting the specific expression of the gene such as transcription factors and riboswitches that react with the relevant gene.
+  While some of these controls (such as, for example, the ribosomal binding sites) are static, and therefore condition independent, others are dynamic and will differ under different environmental conditions (such as transcription factors state).
+\item The global availability of bio-synthetic resources in the cell, including availability of RNA polymerase, co-factors, Ribosomes concentration, amino-acids etc.
+  All of these factors can potentially differ across different environmental conditions.
+\end{enumerate}
+
+For simplicity, the model refers to the fraction of a specific protein out of the proteome, and not to the concentration of that protein in the biomass.
+The concentration of a specific protein in the biomass can be calculated given this fraction and the concentration of total protein in the biomass, which is known to be relatively constant \cite{Bremer1987,Scott2014} (for further discussion see \ref{protconc}).
+
+According to the model, every gene, under every environmental condition, is given an 'affinity-for-expression' (or 'intrinsic-strength') score that encapsulates its gene-specific control state under the condition considered.
+We denote the affinity of gene $i$ under growth condition $c$ by $w_i(c)$ (the notion of affinity for expression is not new, and was first suggested in  \cite{Maaloe1969}).
+Our model assumes that the bio-synthetic resources of the cell (Ribosomes, RNA polymerases, etc.) are distributed among the genes according to their affinities under the condition at hand.
+The notion of affinities can thus reduce the number of parameters needed to predict expression levels
+markedly.
