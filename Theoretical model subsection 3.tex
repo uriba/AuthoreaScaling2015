@@ -3,15 +3,13 @@ While it is sometimes implied that different cellular components are regulated b
 Specifically, the doubling time is proportional to the ratio of the total amount of proteins per cell and the amount of bio-synthesis machinery in that cell.
 The larger the ratio of total proteins to bio-synthesis proteins is, the longer these bio-synthesis proteins will have to operate in order to duplicate the proteome, and thus the longer the doubling time of the cell will be.
 
-To illustrate this assumption concretely, one could think about the total amount of proteins per cell (measured in amino-acids count), $P$, divided by the number of ribosomes in the cell $R$.
-Assuming each ribosome translates at an approximately condition-independent rate of $\eta \approx 20$ amino-acids per second, and as the fraction of actively translating ribosomes out of the total ribosome pool is also relatively condition-independent \cite{Bremer1987}, it follows that the doubling time is linearly dependent on the ratio of proteins to ribosomes in the biomass, as illustrated in Figure \ref{fig:model}B.
-
-Mathematically, the doubling time $\tau$ is equal to $P$, divided by the number of amino acids the cell polymerizes every second $\eta R$ (up to a constant factor of $\ln(2)$, reflecting the fact that the number of ribosomes also increases during the synthesis process).
+To illustrate this assumption concretely, one could think about the synthesis of polypeptides.
+If a cell has $R$ actively translating ribosomes, each of which synthesizing polypeptides at a rate of $\eta \approx 20$ amino acids per second, it follows that the cell synthesizes $\approx R\eta$ amino acids per second.
+If the total amount of protein in that same cell is $P$ (measured in amino acids count), it follows that the time it will take the actively translating ribosomes to synthesize the proteins for an identical daughter cell is $\tau \approx \frac{P}{R\eta}$ (up to a $\ln(2)$ factor resulting from the fact that the ribosomes also synthesize more ribosomes during the replication process and that these new ribosomes will increase the total rate of polypeptides synthesis) as is illustrated in \ref{fig:model}B.
 
 Theoretically, the fastest doubling time a cell may have is the doubling time achieved when all of the proteome of the cell is the bio-synthetic machinery.
 We denote this minimal doubling time by $T_B$.
 If the bio-synthetic machinery is only half of the proteome, the doubling time will be $2T_B$ etc.
-
 
 To integrate the notion of total protein to bio-synthetic protein ratio into our model, we make the following simplifying assumption:
 There is a group of bio-synthetic genes (e.g. genes of the transcriptional and translational machineries) the affinities of which remain constant across different growth conditions, that is, these genes are not actively differentially regulated across different conditions.
