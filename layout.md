@@ -32,8 +32,8 @@ figures/AllProtsVSRibosomalNormalizedSlopes/AllProtsVSRibosomalNormalizedSlopes.
 Global cluster dominates changes in proteome composition.tex
 figures/GlobalClusterGRFit/GlobalClusterGRFit.png
 Discussion-theoretic-summary1.tex
-Discussion-experimental-evidence.tex
 Discussion-model-summary.tex
+Discussion-experimental-evidence.tex
 Discussion-relation-to-ribosomes.tex
 Discussion-relation-to-other-studies.tex
 Discussion-relation-to-other-studies-hwa.tex
