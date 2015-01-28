@@ -31,7 +31,7 @@ Proteins correlated with GR are coordinated - noise effects.tex
 figures/AllProtsVSRibosomalNormalizedSlopes/AllProtsVSRibosomalNormalizedSlopes.png
 Global cluster dominates changes in proteome composition.tex
 figures/GlobalClusterGRFit/GlobalClusterGRFit.png
-Discussion.tex
+Discussion-theoretic-summary1.tex
 Discussion-theoretic-summary.tex
 Discussion-model-summary.tex
 Discussion-relation-to-ribosomes.tex
