@@ -1,0 +1,12 @@
+\subsubsection{The statistical features we find do not naturally rise in randomized data sets}
+We performed three tests to verify that the trends we find, namely, the large fraction of proteins with a strong correlation with growth rate, the coordination among these proteins, their large accumulated fraction out of the proteome and the fraction of variability explained by a single linear regression approximation of their concentrations are all non-trivial characteristics of the data set that do not naturally rise in randomly generated data.
+To this extent we repeated our analysis on three simulated data sets:
+\begin{itemize}
+\item A data set in which the amount of every protein was shuffled across the different conditions.
+\item A data set in which every protein had some randomly distributed quantities across the different conditions, but with the same mean as in the real data set.
+\item A data set simulating half the proteome being perfectly coordinated and linearly dependent on growth rate, with the parameters we find in our analysis, and the other half having no correlation with growth rate, then adding a simulated, normally distributed, measurement noise of $20\%$.
+\end{itemize}
+The results are presented in Figure \ref{fig:emulated}
+
+We find that only in the last simulated set, namely the set that is constructed with the underlying assumption of our model being valid, the repeated analysis identifies the same trends as those observed in our analysis of the original data set.
+We therefore conclude that our findings in the analysis of the real proteomic data sets represent biologically significant underlying mechanisms.
