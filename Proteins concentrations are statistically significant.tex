@@ -1,17 +1,15 @@
 \subsubsection{The statistical features we find do not naturally rise in randomized data sets}
-We performed three tests to verify that the trends we find, namely, the large fraction of proteins with a strong correlation with growth rate, the coordination among these proteins, their large accumulated fraction out of the proteome and the fraction of variability explained by a single linear regression approximation of their concentrations are all non-trivial characteristics of the data set that do not naturally rise in randomly generated data.
-To this extent we repeated our analysis on three simulated data sets:
+We performed two tests to verify that the trends we find, namely, the large fraction of proteins with a strong correlation with growth rate, the coordination among these proteins, their large accumulated fraction out of the proteome and the fraction of variability explained by a single linear regression approximation of their concentrations are all non-trivial characteristics of the data set that do not naturally rise in randomly generated data but that do arise if our model is correct.
+To this extent we repeated our analysis on two simulated data sets:
 \begin{itemize}
-\item A data set in which the amount of every protein was shuffled across the different conditions.
-\item A data set in which every protein had some randomly distributed quantities across the different conditions, but with the same mean as in the real data set.
-\item A data set simulating half the proteome being perfectly coordinated and linearly dependent on growth rate, with the parameters we find in our analysis, and the other half having no correlation with growth rate, then adding a simulated, normally distributed, measurement noise of $20\%$.
+\item A data set at which the amount of every protein was shuffled across the different conditions.
+\item A data set assuming half the proteome being perfectly coordinated and linearly dependent on growth rate, with the parameters we find in our analysis, and the other half having no correlation with growth rate, and with a simulated normally distributed measurement noise of $20\%$.
 \end{itemize}
 The results are presented in Figures \ref{fig:emulated}
 
-We find that only in the last simulated set, namely the set that is constructed with the underlying assumption of our model being valid, the repeated analysis identifies a large fraction of the proteins at being strongly positively correlated with the growth rate.
-Thus, observing that a large fraction of the proteins is significantly positively correlated with growth rate is a non-trivial feature of the data sets.
-Moreover, the asymmetry towards being positively correlated with growth rate, observed in the data set from \cite{Heinemann2015} is not reproduced in the randomized and shuffled data sets.
-We suspect that the reason the data set from \cite{Valgepea} does not display this asymmetry is due to the use of a single carbon source and control of growth rate via the dilution rate of a chemostat, a control mechanism that naturally leads to linear increase and decrease of concentration levels of proteins.
+We find that in the shuffled set the fraction of proteins being significantly positively correlated with
+growth rate is much smaller than found in the real data.
+As a consequence, these proteins now occupy a much smaller fraction out of the proteome mass-wise.
+Finally, the fraction of variability in the proteome that can be explained by a single linear regression to these proteins is again smaller that that obtained for the real data set.
 
-We note that the fractions the strongly correlated with growth rate proteins occupy out of the proteome, as well as the fraction of variability that can be accounted for by linearly fitting them are both significantly lower in these randomized data sets.
-We therefore conclude that our findings in the analysis of the real proteomic data sets represent biologically significant underlying mechanisms.
+We find that the simulated (second) set does display similar characteristics to those we find in the real data, confirming that if, indeed, our model is valid, experimental measurements would overlap with those that we obtained.
