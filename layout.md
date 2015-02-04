@@ -28,7 +28,7 @@ Proteins correlated with GR are coordinated - qunatitative analysis.tex
 Proteins correlated with GR are coordinated - relation to other studies.tex
 Proteins correlated with GR are coordinated - ribosomal proteins.tex
 Proteins correlated with GR are coordinated - noise effects.tex
-figures/AllProtsVSRibosomalNormalizedSlopes/AllProtsVSRibosomalNormalizedSlopes.png
+figures/AllProtsVSRibosomalNormalizedSlopes/GrowthRateCorrelation.png
 Global cluster dominates changes in proteome composition.tex
 figures/GlobalClusterGRFit/GlobalClusterGRFit.png
 Proteins concentrations are statistically significant.tex
