@@ -2,16 +2,22 @@
 \label{heinemanncond} 
 
 The \cite{Heinemann2015} data set contains proteomic data measurements under 19 different environmental conditions.
-However, some of these conditions are expected to affect the proteome composition in ways not related to the actual growth rate.
-Specifically, our model assumes that bio-synthesis rates are condition independent and, at most, change only with growth rate.
-That will likely not be the case under specific kinds of conditions such as low pH and heat stress.
-Additionally, our model assumes exponential growth, implying that measurements taken at stationary phase are expected to differ from simple extrapolation of the model to zero growth rate.
-We have therefore omitted such conditions from our analysis and analyzed only those conditions under which our assumptions for bio-synthesis rates being either constant or have a simple relation to the growth rate might hold \todo{need to add these analyses to the SI}.
+However, some of these conditions violate some of the assumptions we make in our model, assumptions that are at the heart of the connection between the proteome composition and growth rate.
+Specifically, our model assumes constant ribosome translation rate (and bio-synthesis rates in general) which are known to vary with temperature.
+We therefore exluded the $42\celsius$ condition from our analysis.
+Additionally, our model assumes exponential growth, implying that measurements taken at stationary phase are expected to differ from simple extrapolation of the model to zero growth rate, the two measurements of stationary phase proteomics were thus also excluded.
+Finally, we also excluded the low pH condition from our analysis due to large reported estimated error in the growth rate ($\mu=0.5\pm0.11$).
 
-As, out of the conditions measured in the \cite{Heinemann2015} data set, growth in LB media presented a much faster growth rate than the rest of the conditions measured, it dominated the behavior and trends calculated, when included in the analysis.
-While including the data on growth in LB does not qualitatively changes the observed results, such analysis is less statistically robust.
+Out of the conditions measured in the \cite{Heinemann2015} data set, growth in LB media presented a much faster growth rate than the rest of the conditions measured ($1.6$ vs a range of $0.12-0.65$ for the other conditions).
+This asymmetry in the distribution of growth rates caused LB growth to dominate the analysis due to its effect on the skewness of the distribution of growth rates ($\gamma_1=-0.4$ for the growth rates excluding LB vs. $\gamma_1=2.4$ with LB) reducing the statistical power of the other conditions.
+While including the data on growth in LB does not qualitatively changes the observed results, such analysis is much less statistically robust.
 We have therefore omitted LB growth data in the main analysis.
 We present the analysis with growth data on LB in the SI.
-Including LB growth results in a much smaller set of proteins with a strong positive correlation with growth (as many of the proteins in that group in the slower conditions get down-regulated in LB, significantly reducing their Pearson correlation with growth rate).
-On the other hand, the proteins that remain strongly positively correlated with growth rate when LB is included in the analysis show a higher correlation compared with the strongly correlated with growth rate proteins under the slower conditions.
-Furthermore, despite the decrease in the number of proteins that are strongly positively correlated with growth when LB is included in the analysis, these proteins form up to $50\%$ of the proteome under LB.
+
+Including LB growth results in a much smaller set of proteins with a strong positive correlation with growth, as many of the proteins in that group in the slower conditions get down-regulated in LB, significantly reducing their Pearson correlation with growth rate.
+For example, the Pearson correlation with growth rate of gapA, involved in glycolisys, drops from 0.73 to 0.35 when LB is included.
+Another such example is glyA, involved in serine and threonine metabolism, that has a correlation with
+growth rate of -0.12 when LB is included in the analysis vs. a correlation of 0.7 without it.
+
+On the other hand, the proteins that remain strongly positively correlated with growth rate when LB is included in the analysis show a higher correlation compared with the analysis shown without LB.
+Furthermore, despite the decrease in the number of proteins that are strongly positively correlated with growth when LB is included in the analysis (532 vs. 628), these proteins occupy $>50\%$ of the proteome under LB due to the increase in their concentration with growth rate.
