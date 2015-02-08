@@ -54,6 +54,7 @@ figures/ExpVar3/ExpVar3.png
 Data sets differences.tex
 figures/HeinemannChemostatGr/Heinemann-chemosummaryHistAndGr.png
 SI-Heinemann-LB.tex
+figures/HeinemannsummaryHistAndGr/HeinemannsummaryHistAndGr.png
 subsectionDiscussion.tex
 Predictive example.tex
 figures/RandEstimateHeinemann/RandEstimateHeinemann.png
