@@ -52,7 +52,7 @@ Supplementary information.tex
 Threshold selection.tex
 figures/ExpVar3/ExpVar3.png
 Data sets differences.tex
-figures/HeinemannChemostatGr/HeinemannChemostatGr.png
+figures/HeinemannChemostatGr/Heinemann-chemosummaryHistAndGr.png
 subsectionDiscussion.tex
 Predictive example.tex
 figures/RandEstimateHeinemann/RandEstimateHeinemann.png
