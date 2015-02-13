@@ -63,3 +63,4 @@ figures/funcsHeinemann1/funcsHeinemann1.png
 figures/funcsValgepea/funcsValgepea.png
 subsectionRibosomal_.tex
 figures/RibsVsGlob/RibsVsGlob.png
+SI-statistics.tex
