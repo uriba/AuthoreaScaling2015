@@ -34,7 +34,6 @@ figures/GlobalClusterGRFit/GlobalClusterGRFit.png
 Proteins concentrations are statistically significant.tex
 figures/shuffleGrowthRateCorrelation/shuffleGrowthRateCorrelation.png
 figures/shuffleGlobalClusterGRFit/shuffleGlobalClusterGRFit.png
-figures/shuffleExpVar3/shuffleExpVar3.png
 Discussion-theoretic-summary1.tex
 Discussion-model-summary.tex
 Discussion-experimental-evidence.tex
@@ -64,3 +63,4 @@ figures/funcsValgepea/funcsValgepea.png
 subsectionRibosomal_.tex
 figures/RibsVsGlob/RibsVsGlob.png
 SI-statistics.tex
+figures/shuffleExpVar3/shuffleExpVar3.png
