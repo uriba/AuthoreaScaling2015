@@ -64,3 +64,4 @@ subsectionRibosomal_.tex
 figures/RibsVsGlob/RibsVsGlob.png
 SI-statistics.tex
 figures/shuffleExpVar3/shuffleExpVar3.png
+figures/SimulatedsummaryHistAndGr/SimulatedsummaryHistAndGr.png
