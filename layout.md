@@ -17,6 +17,7 @@ Theoretical model - growth rate integration - mathematical description.tex
 Theoretical model subsection 4.tex
 Theoretical model subsection 5.tex
 Theoretical model subsection 6.tex
+Theoretical model summary.tex
 Proteomic data sets analysis.tex
 Many proteins are correlated with growth rate.tex
 figures/GrowthRateCorrelation/GrowthRateCorrelation.png
