@@ -8,7 +8,6 @@ Results.tex
 Theoretical model1.tex
 figures/Figures7-trieste/Figures7-trieste.png
 Theoretical model generic introduction.tex
-Theoretical model generic example.tex
 Theoretical model generic calculation of expression.tex
 Theoretical model subsection 2.tex
 Theoretical model - growth rate integration.tex
