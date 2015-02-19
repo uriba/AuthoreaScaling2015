@@ -1,6 +1,10 @@
 \subsubsection{The concentration of a protein is determined by both gene specific control, and global
 expression machinery availability}
-For every protein, the model separately considers the resulting concentration as the product of two control mechanisms:
+The composition of the proteome can potentially be controlled by an enormous amount of parameters.
+For example, given that an organism expresses 1000 genes across 10 different growth conditions, one could imagine that controlling the expression pattern of all genes across all conditions will require 10000 parameters.
+Our model assumes an underlying architecture that drastically reduces the amount of parameters and thus implies that cells have fewer degrees of freedom in controlling the composition of their proteome.
+
+The model separately considers the resulting concentration of every protein as the product of two control mechanisms:
 \begin{enumerate}
 \item Protein/gene specific controls such as the gene associated promoter sequence, 5'-UTRs, ribosomal binding site sequence, and factors affecting the specific expression of the gene such as transcription factors and riboswitches that react with the relevant gene.
   While some of these controls (such as, for example, the ribosomal binding sites) are static, and therefore condition independent, others are dynamic and will differ under different environmental conditions (such as transcription factors state).
