@@ -16,5 +16,9 @@ For simplicity, the model refers to the fraction of a specific protein out of th
 The concentration of a specific protein in the biomass can be calculated given this fraction and the concentration of total protein in the biomass, which is known to be relatively constant \cite{Bremer1987,Scott2014} (for further discussion see \ref{protconc}).
 
 According to the model, every gene, under every environmental condition, is given an 'affinity-for-expression' (or 'intrinsic-strength') score that encapsulates its gene-specific control state under the condition considered, as was first suggested in \cite{Maaloe1969}.
+We assume that each gene has only a finite set of affinities, possibly only one or two (for example, the on and off states of the lac operon).
+Therefore, the expression pattern under every condition is determined by only setting which, out of the total gene-specific small set of possible affinities, each gene gets under the relevant condition.
+It is therefore implied that, given that the selection of expression level for a given gene is driven by some specific environmental cues, one needs only to know what cues are present at each condition in order to fully specify the affinities all genes acquire under that condition, resulting in full characterization of the expected proteome composition.
+
 We denote the affinity of gene $i$ under growth condition $c$ by $w_i(c)$.
 Our model assumes that the bio-synthetic resources of the cell (Ribosomes, RNA polymerases, etc.) are distributed among the genes according to their affinities under the condition at hand.
