@@ -22,7 +22,6 @@ Proteomic data sets analysis.tex
 Many proteins are correlated with growth rate.tex
 figures/GrowthRateCorrelation/GrowthRateCorrelation.png
 Proteins correlated with GR are coordinated.tex
-Proteins correlated with GR are coordinated - normalization description.tex
 Proteins correlated with GR are coordinated - the proteins are coordinated.tex
 Proteins correlated with GR are coordinated - qunatitative analysis.tex
 Proteins correlated with GR are coordinated - relation to other studies.tex
