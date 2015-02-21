@@ -1,9 +1,9 @@
 \subsubsection{The statistical features we find do not naturally rise in randomized data sets}
-We performed two tests to verify that the trends we find, namely, the large fraction of proteins with a strong correlation with growth rate, the coordination among these proteins, their large accumulated fraction out of the proteome and the fraction of variability explained by a single linear regression approximation of their concentrations are all non-trivial characteristics of the data set that do not naturally rise in randomly generated data but that do arise if our model is correct.
+We performed two tests to verify that the trends we find, namely, the large fraction of proteins with a strong correlation with growth rate, the coordination among these proteins, their large accumulated fraction out of the proteome, and the fraction of variability explained by a single linear regression approximation of their concentrations, are all non-trivial characteristics of the data set that do not naturally rise in randomly generated data but that do arise if our model is correct.
 To this extent we repeated our analysis on two simulated data sets:
 \begin{itemize}
 \item A data set at which the amount of every protein was shuffled across the different conditions.
-\item A synthetic data set assuming half the proteome being perfectly coordinated and linearly dependent on growth rate, with the parameters we find in our analysis, and the other half having no correlation with growth rate, and with a simulated normally distributed measurement noise of $20\%$.
+\item A synthetic data set, based on the conditions and growth rates of the data set from \cite{Heinemann2015}, assuming half the proteins being perfectly coordinated and linearly dependent on growth rate, with parameters similar to those found in our analysis, and the other half having no correlation with growth rate, and with a simulated normally distributed measurement noise of $25\%$.
 \end{itemize}
 
 We find that in the shuffled sets the number of proteins being significantly positively correlated with
@@ -11,4 +11,4 @@ growth rate is much smaller than found in the real data sets (43 vs. 628 in the 
 As a consequence, these proteins now occupy a much smaller fraction out of the proteome mass-wise ($<5\%$ and $20\%$ on average across conditions vs. $35\%$ and $50\%$ in the data sets from \cite{Heinemann2015} and \cite{Valgepea2013} respectively) as is shown in Figure \ref{fig:shuffledglobgrcorr}.
 Finally, the fraction of variability in the proteome that can be explained by a single linear regression to these proteins is smaller for the data set from \cite{Heinemann2015} than that obtained for the real data set ($1\%$ vs. $9\%$ for a threshold of $R\ge0.5$), as is seen in Figure \ref{fig:shuffledexpvar}.
 
-We find that the simulated (second) set does display similar characteristics to those we find in the real data, confirming that if, indeed, our model is valid, experimental measurements would overlap with those that we obtained.
+We find that the simulated (second) set does display similar characteristics to those we find in the real data, confirming that if, indeed, our model is valid, experimental measurements would overlap with those that we obtained as is seen in Figure \ref{fig:simulated}.
