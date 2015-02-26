@@ -1,11 +1,11 @@
 \subsection{Effects of degradation and varying synthesis rate on model predictions}
-The predicted concentration of an unregulated protein as a function of the growth rate is to follow a linear trend crossing at the origin.
-Degradation can be interpreted as implying that the observed growth rate is the combination of the bio-synthesis rate minus the degradation rate, implying that the predicted concentration of an unregulated protein is linear increase with growth rate, but with a horizontal intercept at minus the degradation rate.
+The predicted concentration of an unregulated protein as a function of the growth rate is to follow a linear trend crossing at the origin (Figure \ref{fig:theoreticalpred}, blue line).
+Degradation can be interpreted as implying that the observed growth rate is the combination of the bio-synthesis rate minus the degradation rate, implying that the predicted concentration of an unregulated protein is linear increase with growth rate, but with a horizontal intercept at minus the degradation rate as is shown by the green line in Figure \ref{fig:theoreticalpred}.
 Non constant biosynthesis rate can be modeled as a Michaelis-Menten kinetic like interdependence with growth rate following the formula:
 \[
 \eta(g(c))=\frac{\eta_0}{1+\frac{g_m}{g(c)}
 \]
-where $g(c)$ is the growth rate, $\eta(g(c))$ is the biosynthesis rate at growth rate $g(c)$, $\eta_0$ is the maximal biosynthesis rate and $g_m$ the growth rate at which the biosynthesis rate is $\frac{1}{2}$ the maximal rate.
+where $g(c)$ is the growth rate, $\eta(g(c))$ is the biosynthesis rate at growth rate $g(c)$, $\eta_0$ is the maximal biosynthesis rate and $g_m$ the growth rate at which the biosynthesis rate is $\frac{1}{2}$ the maximal rate (Figure \fig{fig:theoreticalpred}, red line).
 Under this assumption, the doubling time of the biosynthesis machinery itself, $T_B$ becomes:
 \begin{equation}
 \label{eq:varrate}
@@ -16,4 +16,4 @@ Substituting equation \ref{eq:varrate} into equation \ref{eq:default-response} r
 \begin{equation}
 p_i(c)=\frac{w_i(c)}{W_B}\frac{T_B_0(1+\frac{g_m}{g(c)})}{\ln(2)}g(c) = \frac{w_i(c)}{W_B}\frac{T_B_0}{\ln(2)}(g(c)+g_m)
 \end{equation}
-Surprisingly, this equation also describes the concentration as being linearly dependent on the growth rate, with the kinetic parameters implying a non-zero concentration at zero growth rate.
+Surprisingly, this equation also describes the concentration as being linearly dependent on the growth rate, with the kinetic parameters implying a non-zero concentration at zero growth rate as is shown by the red dots in Figure \ref{fig:theoreticalpred}.
