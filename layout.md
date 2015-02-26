@@ -46,6 +46,7 @@ materials-and-methods-use-of-concentration.tex
 materials-and-methods-condition-selection.tex
 Acknowledgements.tex
 Supplementary information.tex
+Si-theoreticalintercept.tex
 Threshold selection.tex
 figures/ExpVar3/ExpVar3.png
 Data sets differences.tex
