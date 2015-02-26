@@ -1,0 +1,19 @@
+\subsection{Effects of degradation and varying synthesis rate on model predictions}
+The predicted concentration of an unregulated protein as a function of the growth rate is to follow a linear trend crossing at the origin.
+Degradation can be interpreted as implying that the observed growth rate is the combination of the bio-synthesis rate minus the degradation rate, implying that the predicted concentration of an unregulated protein is linear increase with growth rate, but with a horizontal intercept at minus the degradation rate.
+Non constant biosynthesis rate can be modeled as a Michaelis-Menten kinetic like interdependence with growth rate following the formula:
+\[
+\eta(g(c))=\frac{\eta_0}{1+\frac{g_m}{g(c)}
+\]
+where $g(c)$ is the growth rate, $\eta(g(c))$ is the biosynthesis rate at growth rate $g(c)$, $\eta_0$ is the maximal biosynthesis rate and $g_m$ the growth rate at which the biosynthesis rate is $\frac{1}{2}$ the maximal rate.
+Under this assumption, the doubling time of the biosynthesis machinery itself, $T_B$ becomes:
+\begin{equation}
+\label{eq:varrate}
+T_B=T_B_0\frac{\eta(g(c)}}{\eta_0}=T_B_0(1+\frac{\g_m}{g(c)})
+\end{equation}
+where $T_B_0$ is the minimal theoretical doubling time when all the proteins are biosynthesis proteins operating at maximal rate.
+Substituting equation \ref{eq:varrate} into equation \ref{eq:default-response} results in a predicted concentration of:
+\begin{equation}
+p_i(c)=\frac{w_i(c)}{W_B}\frac{T_B_0(1+\frac{g_m}{g(c)})}{\ln(2)}g(c)
+\end{equation}
+Surprisingly, this equation also describes the concentration as being linearly dependent on the growth rate, with the kinetic parameters implying a non-zero concentration at zero growth rate.
