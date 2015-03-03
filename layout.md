@@ -36,7 +36,6 @@ Discussion-theoretic-summary1.tex
 Discussion-model-summary.tex
 Discussion-experimental-evidence.tex
 Discussion-relation-to-ribosomes.tex
-Discussion-relation-to-other-studies-ribosomes.tex
 Discussion-relation-to-other-studies.tex
 Discussion-relation-to-other-studies-hwa.tex
 Discussion-future-outlook.tex
