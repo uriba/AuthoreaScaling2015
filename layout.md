@@ -36,9 +36,9 @@ Discussion-theoretic-summary1.tex
 Discussion-model-summary.tex
 Discussion-experimental-evidence.tex
 Discussion-relation-to-ribosomes.tex
+Discussion-relation-to-other-studies-ribosomes.tex
 Discussion-relation-to-other-studies.tex
 Discussion-relation-to-other-studies-hwa.tex
-Discussion-relation-to-other-studies-ribosomes.tex
 Discussion-future-outlook.tex
 materials-and-methods-tools.tex
 materials-and-methods-concentration-normalization.tex
