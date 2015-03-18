@@ -1,7 +1,7 @@
 \subsubsection{Filtering out conditions from the Heinemann data set}
 \label{heinemanncond} 
 
-The \cite{Heinemann2015} data set contains proteomic data measurements under 19 different environmental conditions.
+The \cite{Heinemann2015} data set contains proteomic data measurements under \hConds{} different environmental conditions.
 However, some of these conditions violate some of the assumptions we make in our model, assumptions that are at the heart of the connection between the proteome composition and growth rate.
 Specifically, our model assumes constant ribosome translation rate (and bio-synthesis rates in general) which are known to vary with temperature.
 We therefore excluded the $42^\circ C$ condition from our analysis.
@@ -19,4 +19,4 @@ Another such example is glyA, involved in serine and threonine metabolism, that 
 growth rate of -0.12 when LB is included in the analysis vs. a correlation of 0.7 without it.
 
 On the other hand, the proteins that remain strongly positively correlated with growth rate when LB is included in the analysis show a higher correlation compared with the analysis shown without LB.
-Furthermore, despite the decrease in the number of proteins that are strongly positively correlated with growth when LB is included in the analysis ($532$ vs. $628$), these proteins occupy $>50\%$ of the proteome under LB due to the increase in their concentration with growth rate.
+Furthermore, despite the decrease in the number of proteins that are strongly positively correlated with growth when LB is included in the analysis (\hGlobalLB{} vs. \hGlobal{}), these proteins occupy $>50\%$ of the proteome under LB due to the increase in their concentration with growth rate.
