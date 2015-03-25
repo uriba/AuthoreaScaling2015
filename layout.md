@@ -58,7 +58,7 @@ Predictive example.tex
 figures/RandEstimateHeinemann/RandEstimateHeinemann.png
 subsectionBreakdown_.tex
 figures/funcsHeinemann1/funcsHeinemann1.png
-figures/funcsValgepea/funcsValgepea.png
+figures/funcsValgepea/funcsPeebo.png
 subsectionRibosomal_.tex
 figures/RibsVsGlob/RibsVsGlob.png
 SI-statistics.tex
