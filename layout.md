@@ -31,7 +31,6 @@ Global cluster dominates changes in proteome composition.tex
 figures/GlobalClusterGRFit/GlobalClusterGRFit.png
 Proteins concentrations are statistically significant.tex
 figures/shuffleGrowthRateCorrelation/shuffleGrowthRateCorrelation.png
-figures/shuffleGlobalClusterGRFit/shuffleGlobalClusterGRFit.png
 Discussion-theoretic-summary1.tex
 Discussion-model-summary.tex
 Discussion-experimental-evidence.tex
