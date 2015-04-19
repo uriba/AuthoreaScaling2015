@@ -1,10 +1,10 @@
-\subsubsection{The concentration of a protein is determined by both gene specific control, and global
+\subsubsection{The fraction of a protein is determined by both gene specific control, and global
 expression machinery availability}
 The composition of the proteome is potentially determined by a large amount of parameters.
 For example, given that an organism expresses 1000 genes across 10 different growth conditions, one could imagine that controlling the expression pattern of all genes across all conditions will require 10,000 parameters.
 Our model assumes an underlying architecture that drastically reduces this amount of parameters, implying that cells have fewer degrees of freedom in controlling the composition of their proteome than might be naively expected.
 
-The model separately considers the resulting concentration of every protein as the product of two control mechanisms:
+The model separately considers the resulting fraction of every protein out of the proteome as the product of two control mechanisms:
 \begin{enumerate}
 \item Protein/gene specific controls such as the gene associated promoter sequence, 5'-UTRs, ribosomal binding site sequence, and factors affecting the specific expression of the gene such as transcription factors and riboswitches that react with the relevant gene.
   While some of these controls (such as, for example, the ribosomal binding sites) are static, and therefore condition independent, others are dynamic and will differ under different environmental conditions (such as transcription factors state).
@@ -12,10 +12,9 @@ The model separately considers the resulting concentration of every protein as t
   All of these factors can potentially differ across different environmental conditions.
 \end{enumerate}
 
-
 According to the model, every gene, under every environmental condition, is given an 'affinity-for-expression' (or 'intrinsic-strength') score that encapsulates its gene-specific control state under the condition considered, as was first suggested in \cite{Maaloe1969}.
 We denote the affinity of gene $i$ under growth condition $c$ by $w_i(c)$.
-To determine the resulting concentration of every protein, our model assumes that the bio-synthetic resources of the cell (Ribosomes, RNA polymerases, etc.) are distributed among the genes according to their affinities under the condition at hand.
+To determine the resulting fraction of every protein, our model assumes that the bio-synthetic resources of the cell (Ribosomes, RNA polymerases, etc.) are distributed among the genes according to their affinities under the condition at hand.
 
 Under this framework, assuming each gene has only a finite set of affinities, possibly only one or two (for example, on and off states of the lac operon), the expression pattern under every condition is determined by only setting which, out of the total gene-specific small set of possible affinities, each gene gets under the relevant condition.
 Furthermore, given that the selection of expression level for a given gene is driven by some specific environmental cues, one needs only to know what cues are present at each condition in order to fully specify the affinities all genes acquire under that condition, resulting in full characterization of the expected proteome composition.
