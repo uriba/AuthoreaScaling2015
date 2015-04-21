@@ -1,6 +1,6 @@
 \subsection{Threshold selection for defining strong correlation with growth rate}
 \label{corrthreshold} 
-The data we use includes the concentrations of proteins under different growth conditions, and the growth rate for every condition.
+The data we use includes the fractions of proteins under different growth conditions, and the growth rate for every condition.
 We select a threshold correlation with growth rate to define the group of highly positively correlated with growth rate proteins.
 
 We calculate the explained variability by the growth rate, given a threshold, by taking the difference between the total variability of the group of proteins with a correlation higher than the threshold, and the variability remaining, when assuming these proteins scale with the growth rate according to the calculated linear response.
@@ -22,9 +22,9 @@ The optimal threshold is defined as the threshold maximizing the fraction of tot
 As can be seen in Figure \ref{fig:threshold}, our choice of threshold of $0.5$ is relatively close to the optimum value that is $0.25$ for the data set from \cite{Heinemann2015}, and $0.8$ for the data set from \cite{Peebo_2015}.
 Moreover, as Figure \ref{fig:threshold} illustrates, the different plotted statistics do not change markedly due to this sub-optimal choice of threshold and thus this choice does not affect our results significantly.
 
-As different proteins have very different average concentrations, the aforementioned calculation may be biased towards proteins with higher average concentrations.
-To avoid this effect, the analysis presented was performed on the normalized concentrations as defined in \ref{concacrossconds}.
+As different proteins have very different average fractions, the aforementioned calculation may be biased towards proteins with higher average fractions.
+To avoid this effect, the analysis presented was performed on the normalized fractions as defined in \ref{concacrossconds}.
 
 The noise in current whole proteome measurement techniques makes it difficult to distinguish between proteins that scale coordinately, as is predicted by our model, and proteins that scale differentially, but within measurement uncertainty.
-Thus, it is unclear to what extent the effect we predict affects actual protein concentrations versus their possible individual up regulation with growth rate.
+Thus, it is unclear to what extent the effect we predict affects actual protein fractions versus their possible individual up regulation with growth rate.
 We expect future improvements in the accuracy of whole proteome measurements to quantitatively reveal the importance of passive coordinated scaling with growth rate in shaping the proteome composition. These coming improvements in accuracy will enable better testing of the scope and validity of the model presented here.
