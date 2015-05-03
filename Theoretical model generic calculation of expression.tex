@@ -1,9 +1,10 @@
-For simplicity, the model refers to the fraction of a specific protein out of the proteome, and not to the concentration of that protein in the biomass.
-The concentration of a specific protein in the biomass can be calculated given this fraction and the concentration of total protein in the biomass.
-The concentration of total protein in the biomass, in turn, is known to decrease linearly with the specific growth rate \cite{Bremer1987,Valgepea2013,Scott2014} (for further discussion see \ref{protconc}).
+For simplicity, the model refers to the fraction of a specific protein in the proteome.
+The corresponding concentration in the biomass can be
+calculated using the concentration of total protein in the biomass.
+This concentration, in turn, is known to decrease linearly with the specific growth rate \cite{Bremer1987,Valgepea2013,Scott2014} (for further discussion see \ref{protconc}).
 
-Formally, according to our model, the fraction of a specific protein out of the proteome, under a specific condition, is the specific affinity of the corresponding gene under the condition, divided by the sum of all the affinities of all of the genes under that same condition.
-To illustrate: if two genes have the same affinity under some condition, they will occupy identical fractions out of the proteome under that condition.
+The fraction of a specific protein out of the proteome will then be the specific affinity of the corresponding gene under the condition, divided by the sum of the affinities of all genes under that same condition.
+To illustrate: if two genes have the same affinity under some condition, their corresponding proteins will occupy identical fractions out of the proteome.
 If gene $A$ has twice the affinity of gene $B$ under a given condition, then the fraction protein  $A$ occupies will be twice as large as the fraction occupied by protein $B$ under that condition, etc.
 
 This relationship can be simply formulated as follows:
@@ -13,4 +14,4 @@ This relationship can be simply formulated as follows:
 \end{equation}
 where $p_i(c)$ denotes the fraction of protein $i$ under condition $c$ out of the proteome, $P_i(c)$ denotes the mass of protein $i$ under condition $c$ per cell, $P(c)$ denotes the total mass of proteins per cell under condition $c$, and the sum, $\sum_jw_j(c)$, is taken over all the genes the cell has.
 
-This equation emphasizes that the observed fraction of a protein is determined by two factors: its own specific affinity that is present in the numerator, and also, though less intuitive and commonly thought of, the affinity of all of the other genes under the growth condition, as reflected by the denominator.
+This equation emphasizes that the observed fraction of a protein is determined by the two factors mentioned above: the specific affinity of the protein/gene, that is present in the numerator, and also, though less intuitive, the affinity of all other genes under the growth condition, as reflected by the denominator.
