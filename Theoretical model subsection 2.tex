@@ -1,9 +1,10 @@
-\subsubsection{A change in growth condition triggers changes in expression of specific proteins that indirectly affect all of the proteome}
-Different environmental conditions require the expression of different genes in order to achieve growth.
-For example, comparing two growth media, one that includes amino-acids, and one that does not, it is known that when amino-acids are present, cells do not express amino-acids synthesizing enzymes, whereas when amino-acids are absent, these enzymes are expressed \cite{24656150,10515934}.
-Therefore, ideally, the cell is able to infer the presence or absence of amino-acids in the growth media and, for the amino-acids synthesizing genes, down or up regulate their affinities accordingly.
-If we now consider some unrelated gene $i$, whose specific affinity is unaltered between these two conditions, we suggest that its fraction will still change between the two conditions as the affinities of at least some of the other genes (the amino-acids synthesizing enzymes) change, changing the denominator in equation \ref{eq:concentration-ratio} and thus affecting the distribution of resources between all of the expressed genes.
+\subsubsection{A change in growth condition triggers changes in expression of specific proteins that indirectly affect the whole proteome}
+Different environmental conditions require the expression of different genes.
+For example, the expression of amino-acids synthesizing enzymes is required only in culture media lacking amino-acids \cite{24656150,10515934}.
+Therefore, the cell can infer the presence or absence of amino-acids in the growth media and, regulate the affinities of the synthesizing genes accordingly.
+If we consider a gene $i$, whose specific affinity is not dependent on the presence of amino-acids, we suggest that its fraction will still change between the two conditions as the affinities of other condition specific genes change, thereby redirecting the bio-synthetic capacity.
+In mathematical terms this will chang the denominator in equation \ref{eq:concentration-ratio} and thus affect the distribution of resources between all of the expressed genes.
 
 
-Generalizing this notion, for every group of conditions, one could divide the proteins into those whose intrinsic affinity remains constant across all of the conditions, and to those whose intrinsic affinity changes (meaning their expression is actively regulated by the cell) between at least some of the conditions, as is shown in Figure \ref{fig:model}A.
-An interesting consequence of the formulation in Equation \ref{eq:concentration-ratio} is that proteins whose intrinsic affinities remain constant across different growth conditions, also maintain their relative fractions across these conditions with respect to each other as observed experimentally in \emph{S.Cerevisae} in \cite{Keren2013}.
+Generalizing this notion, we can divide the proteins into those whose intrinsic affinity remains constant across all of the considered conditions, and those whose intrinsic affinity changes between at least some of the conditions (Figure \ref{fig:model}A).
+An interesting consequence is that proteins whose intrinsic affinities remain constant also maintain their relative ratios across these conditions with respect to each other, as observed experimentally in \emph{S.cerevisae} in \cite{Keren2013}.
