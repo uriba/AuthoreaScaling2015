@@ -5,17 +5,18 @@ In the following two sections we analyze the effects of expanding our model to a
 The model we developed predicts that when the growth rate approaches zero, the fraction of every protein with constant affinity also approaches zero.
 This approach to zero applies specifically to the biosynthesis genes, that have constant affinities according to our assumptions.
 However, it is known that the fractions of these proteins, and specifically of ribosomal proteins does not drop to zero when the growth rate approaches zero \cite{ingraham1983growth,Pedersen1978a}.
-Expanding our model to account for the expected effects of proteome degradation affects the predicted fractions of non-differentially regulated proteins at zero growth rate.
+We can account for this phenomenon by including protein degradation in our model.
 
-Simplifying the analysis by assuming that protein degradation acts on all proteins in the same way, and that it is not dependent on the growth condition, the effect of protein degradation can be understood as follows: at any time, some fraction of the entire proteome is degraded.
-Therefore, the \emph{observed} growth rate, $g$, is, in fact, the amount of proteins produced \emph{minus} the amount of proteins degraded.
-To illustrate, if a cell does not grow, the implication is not that no proteins are produced, but rather that proteins are produced at exactly the same rate as they are degraded.
+We assume the degradation rate to be constant for all genes and conditions.
+The \emph{observed} growth rate, $g$, is then the amount of proteins produced \emph{minus} the amount of proteins degraded.
+To illustrate, at zero growth rate, the implication is not that no proteins are produced, but rather that proteins are produced at exactly the same rate as they are degraded.
 
-Integrating this notion into the model means that, where the equations previously referred to the cellular growth rate, $g$, as the indicator of protein synthesis rate, they should in fact refer to the cellular growth rate plus the degradation rate, as that is the actual rate of protein synthesis.
-Therefore, if we denote by $\alpha$ the degradation rate, Equation \ref{eq:final-conc} should be rewritten as:
+Integrating this notion into the model means that the bio-synthesis capacity needs to suffice to re-synthesize all the degraded proteins.
+Hence, where the equations previously referred to the cellular growth rate, $g$, as the indicator of protein synthesis rate, they should in fact refer to the cellular growth rate plus the degradation rate, as that is the actual rate of protein synthesis.
+If we denote by $\alpha$ the degradation rate, Equation \ref{eq:final-conc} should thus be rewritten as:
 \begin{equation}
   \label{eq:final-conc-deg}
   p_i(c)=Aw_i(c)(g(c)+\alpha)
 \end{equation}
-This equation predicts linear dependence of the fraction of unregulated proteins on the growth rate, with an intercept with the horizontal axis occurring at minus the degradation rate as is depicted in Figure \ref{fig:theoreticalpred}.
+This equation predicts linear dependence of the fraction of unregulated proteins on the growth rate, with an intercept with the horizontal axis occurring at minus the degradation rate (Figure \ref{fig:theoreticalpred}).
 Thus, at zero growth rate, the fraction of non-differentially regulated proteins out of the proteome is positive.
