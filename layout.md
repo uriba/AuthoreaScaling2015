@@ -56,7 +56,7 @@ subsectionDiscussion.tex
 Predictive example.tex
 figures/RandEstimateHeinemann/RandEstimateHeinemann.png
 subsectionBreakdown_.tex
-figures/funcsHeinemann1/funcsHeinemann1.png
+figures/funcsHeinemann1/funcsHeinemann.png
 figures/funcsValgepea/funcsPeebo.png
 subsectionRibosomal_.tex
 figures/RibsVsGlob/RibsVsGlob.png
