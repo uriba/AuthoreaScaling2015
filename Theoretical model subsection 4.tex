@@ -1,16 +1,16 @@
 \subsubsection{The fraction of a non-differentially regulated protein is expected to increase with the growth rate} 
-Recalling that the connection between the growth rate and the doubling time is: $g(c)=\frac{\ln(2)}{\tau(c)}$, we now combine Equation \ref{eq:concentration-ratio} with Equation \ref{eq:gr-ratio} to get that:
+Recalling that the connection between the growth rate and the doubling time is: $g(c)=\frac{\ln(2)}{\tau(c)}$, we now combine Equation \ref{eq:concentration-ratio} with Equation \ref{eq:gr-ratio} to get a prediction for the single protein fractions $p_i$:
 \begin{equation}
   \label{eq:default-response}
   p_i(c)=\frac{w_i(c)}{\sum_jw_j(c)}=\frac{w_i(c)}{W_B}\frac{W_B}{\sum_jw_j(c)}=\frac{w_i(c)}{W_B}\frac{T_B}{\ln(2)}g(c)
 \end{equation}
 
-Incorporating all the condition-independent constants ($W_B$, $T_B$, $\ln(2)$) into one term, $A$, we get that the predicted fraction of protein $i$ out of the proteome under condition $c$ is:
+By incorporating all the condition-independent constants ($W_B$, $T_B$, $\ln(2)$) into one term, $A$, we can simplify to:
 \begin{equation}
   \label{eq:final-conc}
   p_i(c)=Aw_i(c)g(c)
 \end{equation}
-which implies that, for every two conditions between which gene $i$ maintains its affinity, ($w_i(c_1)=w_i(c_2)$), the fraction protein $i$ occupies out of the proteome scales in the same way as the growth rate does between these two conditions.
+Hence, for every two conditions between which gene $i$ maintains its affinity, ($w_i(c_1)=w_i(c_2)$), the fraction $p_i(c)$ protein $i$ occupies in the proteome scales in the same way as the growth rate between these two conditions.
 
-To summarize, the simplified model we have constructed predicts that, under no specific regulation, the fraction a protein occupies out of the proteome should scale with the growth rate.
-A group of such proteins should therefore maintain their relative concentrations across conditions.
+To summarize, the simplified model we have constructed predicts that, under no specific regulation, the fraction a non-regulated protein occupies out of the proteome should scale with the growth rate.
+A group of such proteins should therefore maintain their relative ratios across conditions.
