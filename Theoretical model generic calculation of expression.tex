@@ -1,7 +1,7 @@
-For simplicity, the model refers to the fraction of a specific protein in the proteome.
+For simplicity, the model refers to the fraction of each specific protein in the proteome.
 The corresponding concentration in the biomass can be
 calculated using the concentration of total protein in the biomass.
-This concentration, in turn, is known to decrease linearly with the specific growth rate \cite{Bremer1987,Valgepea2013,Scott2014} (for further discussion see \ref{protconc}).
+This concentration, in turn, is known to slightly decrease in a linear manner with the specific growth rate \cite{Bremer1987,Valgepea2013,Scott2014} (for further discussion see \ref{protconc}).
 
 The fraction of a specific protein out of the proteome will then be the specific affinity of the corresponding gene under the condition, divided by the sum of the affinities of all genes under that same condition.
 To illustrate: if two genes have the same affinity under some condition, their corresponding proteins will occupy identical fractions out of the proteome.
@@ -12,6 +12,6 @@ This relationship can be simply formulated as follows:
   \label{eq:concentration-ratio}
   p_i(c)=\frac{P_i(c)}{P(c)}=\frac{w_i(c)}{\sum_jw_j(c)}
 \end{equation}
-where $p_i(c)$ denotes the fraction of protein $i$ under condition $c$ out of the proteome, $P_i(c)$ denotes the mass of protein $i$ under condition $c$ per cell, $P(c)$ denotes the total mass of proteins per cell under condition $c$, and the sum, $\sum_jw_j(c)$, is taken over all the genes the cell has.
+where $p_i(c)$ denotes the fraction out of the proteome of protein $i$ under condition $c$, $P_i(c)$ denotes the mass of protein $i$ under condition $c$ per cell, $P(c)$ denotes the total mass of proteins per cell under condition $c$, and the sum, $\sum_jw_j(c)$, is taken over all the genes the cell has.
 
 This equation emphasizes that the observed fraction of a protein is determined by the two factors mentioned above: the specific affinity of the protein/gene, that is present in the numerator, and also, though less intuitive, the affinity of all other genes under the growth condition (affecting the availability of bio-synthetic resources), as reflected by the denominator.
