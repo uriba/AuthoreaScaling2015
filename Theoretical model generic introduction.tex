@@ -1,8 +1,8 @@
-\subsubsection{The fraction of a protein is determined by both gene specific control, and global
+\subsubsection{The fraction of a protein can be decomposed into gene specific control and global
 expression machinery availability}
-The composition of the proteome can potentially be determined by a large number of parameters.
+The composition of the proteome can in principle be determined by a large number of parameters.
 For example, given that an organism expresses 1000 genes across 10 different growth conditions, one could imagine that controlling the expression pattern of all genes across all conditions will require 10,000 parameters.
-Our model proposes an underlying architecture that drastically reduces this amount of parameters, implying that cells have fewer degrees of freedom in controlling the composition of their proteome than might be naively expected.
+Our model proposes an underlying architecture that drastically reduces this amount of parameters, implying that cells control most of the composition of their proteome through fewer degrees of freedom than might be naively expected.
 
 The model separately considers the resulting fraction of every protein out of the proteome as the product of two control mechanisms:
 \begin{enumerate}
@@ -12,7 +12,9 @@ The model separately considers the resulting fraction of every protein out of th
   All of these factors can potentially differ across different environmental conditions.
 \end{enumerate}
 
-In the model, every gene is given an 'affinity-for-expression' (or 'intrinsic-affinity') score that encapsulates its gene-specific control state under every environmental condition considered, as was first suggested in \cite{Maaloe1969}.
+In the model, every gene is given an 'affinity-for-expression' (or 'intrinsic-affinity') score that encapsulates tendency to attract the bio-synthetic machinery, as was first suggested in \cite{Maaloe1969}.
+This gene-specific value can in principle change across environmental conditions but a key feature is that it tends to have the same value across many conditions.
+Often two values are enough across all conditions, an "off" and "on" value.
 We denote the affinity of gene $i$ under growth condition $c$ by $w_i(c)$.
 To determine the resulting fraction of every protein, our model assumes that the bio-synthetic resources are distributed among the genes according to those affinities.
 
