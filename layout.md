@@ -48,7 +48,6 @@ Si-theoreticalintercept.tex
 figures/TheoreticalModelEffects/TheoreticalModelEffects.png
 Threshold selection.tex
 figures/ExpVar3/ExpVar3.png
-Data sets differences.tex
 SI-Heinemann-LB.tex
 figures/HeinemannsummaryHistAndGr/HeinemannsummaryHistAndGr.png
 subsectionDiscussion.tex
