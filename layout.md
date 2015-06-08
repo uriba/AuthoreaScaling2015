@@ -6,7 +6,7 @@ Introduction-remaining-challenges.tex
 Introduction-work-summary.tex
 Results.tex
 Theoretical model1.tex
-figures/Figures7-trieste/figure-1-normal.svg
+figures/Figures7-trieste/figure-1-normal.png
 Theoretical model generic introduction.tex
 Theoretical model generic calculation of expression.tex
 Theoretical model subsection 2.tex
