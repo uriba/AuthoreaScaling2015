@@ -49,7 +49,6 @@ figures/TheoreticalModelEffects/TheoreticalModelEffects.png
 Threshold selection.tex
 figures/ExpVar3/ExpVar3.png
 Data sets differences.tex
-figures/HeinemannChemostatGr/Heinemann-chemosummaryHistAndGr.png
 SI-Heinemann-LB.tex
 figures/HeinemannsummaryHistAndGr/HeinemannsummaryHistAndGr.png
 subsectionDiscussion.tex
