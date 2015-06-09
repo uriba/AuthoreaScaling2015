@@ -1,15 +1,13 @@
 \subsubsection{Filtering out conditions from the Heinemann data set}
 \label{heinemanncond} 
 
-The \cite{Heinemann2015} data set contains proteomic data measurements under \hConds{} different environmental conditions.
-However, some of these conditions violate some of the assumptions we make in our model, assumptions that are at the heart of the connection between the proteome composition and growth rate.
-Specifically, our model assumes constant ribosome translation rate (and bio-synthesis rates in general) which are known to vary with temperature.
-We therefore excluded the $42^\circ C$ condition from our analysis.
-Additionally, our model assumes exponential growth, implying that measurements taken at stationary phase are expected to differ from simple extrapolation of the model to zero growth rate, the two measurements of stationary phase proteomics were thus also excluded.
+The \cite{Heinemann2015} data set contains proteomic data measurements under 22 different environmental conditions.
+However, our model assumes exponential growth, implying that measurements taken at stationary phase are expected to differ from simple extrapolation of the model to zero growth rate.
+Therefore, the two measurements of stationary phase proteomics were excluded from our analysis.
 
-Out of the conditions measured in the \cite{Heinemann2015} data set, growth in LB media presented a much faster growth rate than the rest of the conditions measured ($1.6$ vs a range of $0.12-0.65$ for the other conditions).
-This asymmetry in the distribution of growth rates caused LB growth to dominate the analysis due to its effect on the skewness of the distribution of growth rates ($\gamma_1=-0.4$ for the growth rates excluding LB vs. $\gamma_1=2.4$ with LB) reducing the statistical power of the other conditions.
-While including the data on growth in LB does not qualitatively change the observed results, such analysis is much less statistically robust.
-We have therefore omitted LB growth data in the main analysis.
-We present the analysis with growth data on LB in section \ref{lbanalysis}.
+Out of the conditions measured in the \cite{Heinemann2015} data set, two conditions included amino acids in the media and presented much faster growth rate than the rest of the conditions (growth in LB media and in glycerol supplemented with AA, with growth rates of $1.9[h^{-1}]$ and $1.27[h^{-1}]$ respectively, compared with a range of $0.12-0.66$ for the other conditions).
+This asymmetry in the distribution of growth rates caused inclusion of these conditions to dominate the analysis due to its effect on the skewness of the distribution of growth rates ($\gamma_1=-0.5$ for the growth rates excluding LB and AA supplemented glycerol vs. $\gamma_1=2.3$ with LB and AA supplemented glycerol) reducing the statistical power of the other conditions.
+While including the data on growth in these conditions does not qualitatively change the observed results, such analysis is much less statistically robust.
+We have therefore omitted growth in LB and in AA supplemented glycerol in the main analysis.
+We present the analysis including these conditions in section \ref{lbanalysis}.
 
