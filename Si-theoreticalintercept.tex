@@ -2,6 +2,7 @@
 \label{theoreticalintercep}
 The predicted fraction of an unregulated protein as a function of the growth rate is to follow a linear trend crossing at the origin (Figure \ref{fig:theoreticalpred}, blue line).
 Degradation can be interpreted as implying that the observed growth rate is the combination of the bio-synthesis rate minus the degradation rate, implying that the predicted fraction of an unregulated protein is linear increase with growth rate, but with a horizontal intercept at minus the degradation rate as is shown by the green line in Figure \ref{fig:theoreticalpred}.
+
 Non constant biosynthesis rate can be modeled as a Michaelis-Menten kinetic like interdependence with growth rate following the formula:
 \begin{equation}
 \eta(g(c))=\frac{\eta_0}{1+\frac{g_m}{g(c)}}
@@ -10,7 +11,7 @@ where $g(c)$ is the growth rate, $\eta(g(c))$ is the biosynthesis rate at growth
 Under this assumption, the doubling time of the biosynthesis machinery itself, $T_B$ becomes:
 \begin{equation}
 \label{eq:varrate}
-T_B=T_B^0\frac{\eta(g(c)}{\eta_0}=T_B^0(1+\frac{g_m}{g(c)})
+T_B=T_B^0\frac{\eta(g(c))}{\eta_0}=T_B^0(1+\frac{g_m}{g(c)})
 \end{equation}
 where $T_B^0$ is the minimal theoretical doubling time when all the proteins are biosynthesis proteins operating at maximal rate.
 Substituting equation \ref{eq:varrate} into equation \ref{eq:default-response} results in a predicted fraction of:
